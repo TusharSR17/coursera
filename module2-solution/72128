@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  font-size: 62.555%;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100%;
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+}
+.main-head {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.chicken, .beef, .sushi {
+  text-align: right;
+  margin-bottom: 1.5rem;
+  border: .25rem solid #000;
+  background-color: #c3c3c3;
+  background-clip: border-box;
+}
+.sec-head {
+  width: 40%;
+  color: #000000;
+  outline-offset: 0;
+  font-size: 2.4rem;
+  text-align: center;
+  padding: .25rem 3rem;
+  display: inline-block;
+  background-color: pink;
+  outline: .25rem solid #000;
+}
+.beef .sec-head {
+  color: #ffffff;
+  background-color: #E53935;
+}
+.sushi .sec-head {
+  background-color: #FDD835;
+}
+.chicken p,.beef p,.sushi p {
+  padding: 1rem;
+  font-weight: 500;
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+
+@media only screen and (max-width:767px) {
+.container {
+  width: 100vw;
+  height: 100%;
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+}
+.main-head {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.chicken, .beef, .sushi {
+  text-align: right;
+  margin-bottom: 1.5rem;
+  border: .25rem solid #000;
+  background-color: #c3c3c3;
+  background-clip: border-box;
+}
+.sec-head {
+  width: 40%;
+  color: #000000;
+  outline-offset: 0;
+  font-size: 2.4rem;
+  text-align: center;
+  padding: .25rem 3rem;
+  display: inline-block;
+  background-color: pink;
+  outline: .25rem solid #000;
+}
+.beef .sec-head {
+  color: #ffffff;
+  background-color: #E53935;
+}
+.sushi .sec-head {
+  background-color: #FDD835;
+}
+.chicken p,.beef p,.sushi p {
+  padding: 1rem;
+  font-weight: 500;
+  text-align: left;
+  font-size: 1.6rem;
+}
+}
+
+@media only screen and (min-width:768px) {
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+}
+.main-head {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.tablet {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+.chicken, .beef {
+  text-align: right;
+  display: inline;
+  margin-right: 1.5rem;
+  border: .25rem solid #000;
+  box-sizing: border-box;
+  background-color: #c3c3c3;
+  background-clip: border-box;
+}
+.beef {
+  margin-right: 0;
+}
+.sushi {
+  text-align: right;
+  margin-bottom: 1.5rem;
+  border: .25rem solid #000;
+  background-color: #c3c3c3;
+  background-clip: border-box;
+}
+.sec-head {
+  width: 40%;
+  color: #000000;
+  outline-offset: 0;
+  font-size: 2.4rem;
+  text-align: center;
+  padding: .25rem 3rem;
+  display: inline-block;
+  background-color: pink;
+  outline: .25rem solid #000;
+}
+.beef .sec-head {
+  color: #ffffff;
+  background-color: #E53935;
+}
+.sushi .sec-head {
+  width: 20%;
+  background-color: #FDD835;
+}
+.chicken p,.beef p,.sushi p {
+  padding: 1rem;
+  font-weight: 500;
+  text-align: left;
+  font-size: 1.6rem;
+}
+}
+
+@media only screen and (min-width:992px) {
+.container {
+  width: 100%;
+  height: 100%;
+}
+.main-head {
+  width: 100;
+  margin-top: 2.555%;
+  Margin-bottom: 5%;
+  font-size: 3.2rem;
+  text-align: center;
+}
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.tablet {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+.chicken,.beef {
+  display: inline-block;
+  height: 100%;
+  margin-right: 2.5%;
+  border: .25rem solid #000;
+  text-align: right;
+  background-color: #c3c3c3;
+}
+.beef {
+  margin-right: 0;
+}
+.sushi {
+  display: inline-block;
+  height: 100%;
+  border: .25rem solid #000;
+  text-align: right;
+  margin-right: 2.5%;
+  background-color: #c3c3c3;
+}
+.sec-head {
+  display: inline-block;
+  outline: .25rem solid #000;
+  outline-offset: 0;
+  text-align: center;
+  width: 40%;
+  font-size: 2.6rem;
+  background-color: pink;
+}
+.chicken .sec-head {
+  padding: 0;
+}
+.beef .sec-head {
+  color: #fff;
+  background-color: #e53935;
+}
+.sushi .sec-head {
+  background-color: #fdd853;
+}
+.chicken p,.beef p,.sushi p {
+  padding: 1rem;
+  text-align: left;
+  font-size: 1.6rem;
+  font-weight: 500;
+  height: 100%;
+}
+}

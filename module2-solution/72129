@@ -1,0 +1,33 @@
+<!doctype HTML>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment Solution for Module 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="TusharKumarSengar" />
+    <link rel="preload" href="main.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  </head>
+  <body>
+    <section class="container">
+      <h1 class="main-head">Our Menu</h1>
+      
+      <div class="box">
+        <div class="tablet">
+        <div class="chicken">
+          <h2 class="sec-head">Chicken</h2>
+          <p>Lorem ipsum dolor sit omet, consetetur adipisicing elit, sed do eiusmod tempor incididunt ut lobore el dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqup ex ea commodo consequat.</p>
+        </div>
+        <div class="beef">
+          <h2 class="sec-head">Beef</h2>
+          <p>Lorem ipsum dolor sit omet, consetetur adipisicing elit, sed do eiusmod tempor incididunt ut lobore el dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqup ex ea commodo consequat.</p>
+        </div>
+        </div>
+        <div class="sushi">
+          <h2 class="sec-head">Sushi</h2>
+          <p>Lorem ipsum dolor sit omet, consetetur adipisicing elit, sed do eiusmod tempor incididunt ut lobore el dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqup ex ea commodo consequat.</p>
+        </div>
+        
+      </div>
+    </section>
+  </body>
+</html>
